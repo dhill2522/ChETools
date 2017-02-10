@@ -20,8 +20,8 @@ Tr = T / Tc
 Z = ChE.eosRK(Pr, Tr)
 print(Z)
 
-H, S = ChE.residRK(Pr, Tr)
+H1, S1 = ChE.residRK(Pr, Tr)
 
-H = H*R*T
-S = S*R
+H1 = H1*R*T
+S1 = S1*R
 print(H, S)
